@@ -54,14 +54,26 @@ html {
 .subject-info {
   font-size: 3rem;
 }
+.subject-info:hover {
+  cursor: pointer;
+}
 .down-arrow-ai {
   font-size: 4rem;
+}
+.down-arrow-ai:hover {
+  cursor: pointer;
 }
 .down-arrow-set {
   font-size: 4rem;
 }
+.down-arrow-set:hover {
+  cursor: pointer;
+}
 .down-arrow-dbms {
   font-size: 4rem;
+}
+.down-arrow-dbms:hover {
+  cursor: pointer;
 }
 .books-box-ai {
   overflow: hidden;
