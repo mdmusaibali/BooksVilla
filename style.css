@@ -73,29 +73,41 @@ html {
   border-radius: 0.6rem;
   color: rgb(255, 255, 255);
 }
+.subject-select:hover {
+  cursor: pointer;
+}
 .subject-info {
   font-size: 3rem;
-}
-.subject-info:hover {
-  cursor: pointer;
 }
 .down-arrow-ai {
   font-size: 4rem;
 }
-.down-arrow-ai:hover {
-  cursor: pointer;
+.up-arrow-ai {
+  font-size: 4rem;
 }
 .down-arrow-set {
   font-size: 4rem;
 }
-.down-arrow-set:hover {
-  cursor: pointer;
+.up-arrow-set {
+  font-size: 4rem;
 }
 .down-arrow-dbms {
   font-size: 4rem;
 }
-.down-arrow-dbms:hover {
-  cursor: pointer;
+.up-arrow-dbms {
+  font-size: 4rem;
+}
+.down-arrow-ds {
+  font-size: 4rem;
+}
+.up-arrow-ds {
+  font-size: 4rem;
+}
+.down-arrow-dc {
+  font-size: 4rem;
+}
+.up-arrow-dc {
+  font-size: 4rem;
 }
 .books-box-ai {
   overflow: hidden;
@@ -114,6 +126,22 @@ html {
   grid-template-columns: repeat(2, 1fr);
 }
 .books-box-dbms {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.books-box-ds {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.books-box-dc {
   overflow: hidden;
   margin: 0 auto;
   width: 75%;
@@ -157,6 +185,9 @@ li {
   opacity: 1;
   padding: auto;
   transition: all 1s ease-in-out;
+}
+.hidden {
+  display: none;
 }
 .test {
   font-size: 4rem;
