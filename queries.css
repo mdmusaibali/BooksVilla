@@ -50,6 +50,15 @@
   html {
     font-size: 35%;
   }
+  .overflow {
+    width: 80%;
+    padding: 2rem;
+    font-size: 3.5rem;
+  }
+  .close-icon {
+    font-size: 4rem;
+    transform: translate(30%, -30%);
+  }
   .logo {
     height: 20rem;
     width: 20rem;
