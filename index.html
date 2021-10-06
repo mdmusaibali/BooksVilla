@@ -17,22 +17,26 @@
     <link rel="stylesheet" href="queries.css" />
     <link rel="icon" type="image/png" href="img/logo.jpg" />
   </head>
-  <body>
+  <body class="body">
     <div class="container">
+      <div class="overflows hide">
+        <div class="overflow">
+          <ion-icon name="close-circle-outline" class="close-icon"></ion-icon>
+          <p>It may take 5-10 seconds for the download to start</p>
+        </div>
+      </div>
       <section class="heading">
         <img src="img/logo.jpg" class="logo" />
         <h1 class="heading-text">Computer Science and Engineering</h1>
       </section>
       <h1 class="semester">SEMESTER &nbsp;V</h1>
       <!-- -----------------------AI---------------------------------- -->
-      <div class="subject-select">
-        <p class="subject-info ai-trigger">ARTIFICIAL INTELLIGENCE</p>
-        <a>
-          <ion-icon
-            class="down-arrow-ai"
-            name="chevron-down-circle-outline"
-          ></ion-icon>
-        </a>
+      <div class="subject-select ai-trigger">
+        <p class="subject-info">ARTIFICIAL INTELLIGENCE</p>
+        <ion-icon
+          class="down-arrow-ai"
+          name="chevron-down-circle-outline"
+        ></ion-icon>
       </div>
       <div class="books-box-ai hide">
         <div class="book">
@@ -65,14 +69,12 @@
         </div>
       </div>
       <!-------------------------SET------------------------------------>
-      <div class="subject-select">
-        <p class="subject-info set-trigger">SOFTWARE ENGINEERING AND TOOLS</p>
-        <a>
-          <ion-icon
-            class="down-arrow-set"
-            name="chevron-down-circle-outline"
-          ></ion-icon>
-        </a>
+      <div class="subject-select set-trigger">
+        <p class="subject-info">SOFTWARE ENGINEERING AND TOOLS</p>
+        <ion-icon
+          class="down-arrow-set"
+          name="chevron-down-circle-outline"
+        ></ion-icon>
       </div>
       <div class="books-box-set hide">
         <div class="book">
@@ -107,14 +109,12 @@
         </div>
       </div>
       <!-- -----------------------DBMS---------------------------------- -->
-      <div class="subject-select">
-        <p class="subject-info dbms-trigger">DATA BASE MANAGEMENT SYSTEM</p>
-        <a>
-          <ion-icon
-            class="down-arrow-dbms"
-            name="chevron-down-circle-outline"
-          ></ion-icon>
-        </a>
+      <div class="subject-select dbms-trigger">
+        <p class="subject-info">DATA BASE MANAGEMENT SYSTEM</p>
+        <ion-icon
+          class="down-arrow-dbms"
+          name="chevron-down-circle-outline"
+        ></ion-icon>
       </div>
       <div class="books-box-dbms hide">
         <div class="book">

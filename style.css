@@ -7,6 +7,27 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.overflows {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.overflow {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(85, 84, 84, 0.685);
+  font-size: 2.5rem;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+.close-icon {
+  font-size: 3rem;
+  transform: translate(100%, -100%);
+}
 .logo {
   height: 15rem;
   width: 15rem;
