@@ -26,6 +26,9 @@
   .books-box-ds {
     width: 80%;
   }
+  .books-box-dc {
+    width: 80%;
+  }
 }
 @media (max-width: 614px) {
   html {
@@ -44,6 +47,9 @@
     width: 85%;
   }
   .books-box-ds {
+    width: 85%;
+  }
+  .books-box-dc {
     width: 85%;
   }
 }
@@ -87,6 +93,11 @@
     margin-bottom: 8rem;
   }
   .books-box-ds {
+    grid-template-columns: 1fr;
+    gap: 8rem;
+    margin-bottom: 8rem;
+  }
+  .books-box-dc {
     grid-template-columns: 1fr;
     gap: 8rem;
     margin-bottom: 8rem;
