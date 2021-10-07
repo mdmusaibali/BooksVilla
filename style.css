@@ -73,75 +73,20 @@ html {
   border-radius: 0.6rem;
   color: rgb(255, 255, 255);
 }
+.subject-select:last-child {
+  margin: 1.6rem auto;
+}
 .subject-select:hover {
   cursor: pointer;
 }
 .subject-info {
   font-size: 3rem;
 }
-.down-arrow-ai {
+.down-arrow,
+.up-arrow {
   font-size: 4rem;
 }
-.up-arrow-ai {
-  font-size: 4rem;
-}
-.down-arrow-set {
-  font-size: 4rem;
-}
-.up-arrow-set {
-  font-size: 4rem;
-}
-.down-arrow-dbms {
-  font-size: 4rem;
-}
-.up-arrow-dbms {
-  font-size: 4rem;
-}
-.down-arrow-ds {
-  font-size: 4rem;
-}
-.up-arrow-ds {
-  font-size: 4rem;
-}
-.down-arrow-dc {
-  font-size: 4rem;
-}
-.up-arrow-dc {
-  font-size: 4rem;
-}
-.books-box-ai {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 75%;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.books-box-set {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 75%;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.books-box-dbms {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 75%;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.books-box-ds {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 75%;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-.books-box-dc {
+.box {
   overflow: hidden;
   margin: 0 auto;
   width: 75%;
@@ -201,7 +146,18 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+.btnView {
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+.btnView:hover {
+  background-color: black;
+  color: white;
+}
 .btn {
   font-size: 2rem;
   background-color: white;
@@ -213,4 +169,8 @@ html {
 .btn:hover {
   background-color: black;
   color: white;
+}
+.downloadButton {
+  display: flex;
+  gap: 3rem;
 }

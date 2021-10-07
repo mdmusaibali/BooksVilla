@@ -14,19 +14,7 @@
   .subject-select {
     width: 80%;
   }
-  .books-box-ai {
-    width: 80%;
-  }
-  .books-box-set {
-    width: 80%;
-  }
-  .books-box-dbms {
-    width: 80%;
-  }
-  .books-box-ds {
-    width: 80%;
-  }
-  .books-box-dc {
+  .box {
     width: 80%;
   }
 }
@@ -37,19 +25,7 @@
   .subject-select {
     width: 90%;
   }
-  .books-box-ai {
-    width: 85%;
-  }
-  .books-box-set {
-    width: 85%;
-  }
-  .books-box-dbms {
-    width: 85%;
-  }
-  .books-box-ds {
-    width: 85%;
-  }
-  .books-box-dc {
+  .box {
     width: 85%;
   }
 }
@@ -77,27 +53,7 @@
     border-radius: 100%;
     margin-bottom: 6rem;
   }
-  .books-box-ai {
-    grid-template-columns: 1fr;
-    gap: 8rem;
-    margin-bottom: 8rem;
-  }
-  .books-box-set {
-    grid-template-columns: 1fr;
-    gap: 8rem;
-    margin-bottom: 8rem;
-  }
-  .books-box-dbms {
-    grid-template-columns: 1fr;
-    gap: 8rem;
-    margin-bottom: 8rem;
-  }
-  .books-box-ds {
-    grid-template-columns: 1fr;
-    gap: 8rem;
-    margin-bottom: 8rem;
-  }
-  .books-box-dc {
+  .box {
     grid-template-columns: 1fr;
     gap: 8rem;
     margin-bottom: 8rem;
@@ -121,7 +77,8 @@
   li {
     font-size: 3rem;
   }
-  .btn {
+  .btn,
+  .btnView {
     font-size: 3rem;
   }
   .book-info {
