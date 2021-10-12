@@ -7,6 +7,24 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+section {
+  margin-bottom: 8rem;
+  padding: 4rem 0;
+}
+.section-sem3 {
+  background-color: #f1f3f5;
+}
+.section-sem5 {
+  background-color: #f1f3f5;
+}
+.section-sem7 {
+  background-color: #f1f3f5;
+}
+.semester {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
 .overflows {
   height: 100vh;
   overflow-y: hidden;
@@ -52,11 +70,7 @@ html {
   border-bottom-left-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
-.semester {
-  text-align: center;
-  font-size: 4rem;
-  margin-bottom: 6rem;
-}
+
 .heading-text {
   font-size: 6rem;
   text-align: center;

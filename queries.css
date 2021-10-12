@@ -56,7 +56,6 @@
   .box {
     grid-template-columns: 1fr;
     gap: 8rem;
-    margin-bottom: 8rem;
   }
   .book-img {
     width: 80%;
