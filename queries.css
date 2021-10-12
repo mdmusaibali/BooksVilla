@@ -44,6 +44,9 @@
   html {
     font-size: 35%;
   }
+  img.sticky {
+    width: 7rem;
+  }
   .help-form-box {
     width: 70%;
   }
