@@ -18,18 +18,43 @@
     <link rel="icon" type="image/png" href="img/logo.jpg" />
   </head>
   <body class="body">
+    <img class="sticky help" src="img/help.png" alt="help logo" />
+    <img class="sticky cancel hidden" src="img/cancel.png" alt="help logo" />
     <div class="container">
-      <div class="overflows hide">
-        <div class="overflow">
-          <ion-icon name="close-circle-outline" class="close-icon"></ion-icon>
-          <p>It may take 5-10 seconds for the download to start</p>
+      <div class="help-form">
+        <div class="help-form-box">
+          <p class="help-form-text">
+            To report any bugs or to request any book, please use the contact
+            form given below
+          </p>
+          <form
+            class="form"
+            action="https://formsubmit.co/mdmusaibali@gmail.com"
+            method="POST"
+          >
+            <label>Enter your name:</label>
+            <input type="text" name="name" required />
+            <label>Enter your email:</label>
+            <input type="email" name="email" required />
+            <label class="selecttext">Select the type of issue:</label>
+            <select required>
+              <option value>Please choose any one</option>
+              <option value="bug report">Bugs</option>
+              <option value="book request">Book Request</option>
+              <option value="other">Any Other</option>
+            </select>
+            <label>Message:</label>
+            <input type="text" name="message" required />
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
         </div>
       </div>
+
       <section class="heading">
         <img src="img/logo.jpg" class="logo" />
         <h1 class="heading-text">Computer Science and Engineering</h1>
       </section>
-      <section class="section-sem1&2">
+      <section class="section-sem1and2">
         <h1 class="semester">SEMESTER &nbsp;I & II(Syllabus 2020-2021)</h1>
         <!-- -----------------------C PROGRAMMING FOR PROBLEM SOLVING------------------------------------>
         <div class="subject-select trigger">

@@ -1,16 +1,14 @@
 const closeButton = document.querySelector(".close-icon");
-const overflow = document.querySelector(".overflows");
 const body = document.querySelector("body");
-closeButton.addEventListener("click", function () {
-  overflow.classList.add("hide");
-  body.style.overflow = "scroll";
-});
+const helpButton = document.querySelector(".sticky");
+const helpForm = document.querySelector(".help-form");
+const cancelButton = document.querySelector(".cancel");
 
 const downloadButtons = document.querySelectorAll(".btn").forEach((btn) =>
   btn.addEventListener("click", function () {
-    overflow.classList.remove("hide");
-    body.style.overflow = "hidden";
-    document.documentElement.scrollTop = 0;
+    alert(
+      "It may take 5-10 seconds for the download to start.\nPress OK to confirm"
+    );
   })
 );
 
@@ -27,3 +25,16 @@ for (let i = 0; i < trigger.length; i++) {
     upArrow[i].classList.toggle("hidden");
   });
 }
+
+helpButton.addEventListener("click", function () {
+  document.documentElement.scrollTop = 0;
+  cancelButton.classList.toggle("hidden");
+  helpButton.classList.toggle("hidden");
+  helpForm.classList.toggle("help-form-transform");
+});
+
+cancelButton.addEventListener("click", function () {
+  cancelButton.classList.toggle("hidden");
+  helpButton.classList.toggle("hidden");
+  helpForm.classList.remove("help-form-transform");
+});

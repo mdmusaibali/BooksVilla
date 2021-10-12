@@ -17,6 +17,9 @@
   .box {
     width: 80%;
   }
+  .help-form-box {
+    width: 50%;
+  }
 }
 @media (max-width: 614px) {
   html {
@@ -28,6 +31,9 @@
   .box {
     width: 85%;
   }
+  .help-form-box {
+    width: 60%;
+  }
 }
 @media (max-width: 614px) {
   html {
@@ -37,6 +43,9 @@
 @media (max-width: 428px) {
   html {
     font-size: 35%;
+  }
+  .help-form-box {
+    width: 70%;
   }
   .overflow {
     width: 80%;
@@ -63,9 +72,6 @@
   }
   .subject-select {
     padding: 2rem 2rem;
-  }
-  .heading {
-    margin-bottom: 10rem;
   }
   .semester {
     font-size: 5rem;
