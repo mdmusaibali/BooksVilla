@@ -27,8 +27,48 @@ img.sticky {
   width: 5rem;
   z-index: 99;
 }
+img.sticky:hover {
+  cursor: pointer;
+}
+img.sticktobottom {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 5rem;
+  z-index: 99;
+}
+img.sticktobottom:hover {
+  cursor: pointer;
+}
 .container {
   position: relative;
+}
+.links-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.quick-scroll {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.sem-link {
+  transition: all 0.5s;
+}
+.sem-link:hover {
+  padding: 0.1rem;
+  transform: rotate(7deg) scale(1.2);
+  background-color: black;
+  color: white;
 }
 .help-form {
   position: absolute;

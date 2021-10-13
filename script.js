@@ -3,7 +3,7 @@ const body = document.querySelector("body");
 const helpButton = document.querySelector(".sticky");
 const helpForm = document.querySelector(".help-form");
 const cancelButton = document.querySelector(".cancel");
-
+const upwardsButton = document.querySelector(".sticktobottom");
 const downloadButtons = document.querySelectorAll(".btn").forEach((btn) =>
   btn.addEventListener("click", function () {
     alert(
@@ -37,4 +37,8 @@ cancelButton.addEventListener("click", function () {
   cancelButton.classList.toggle("hidden");
   helpButton.classList.toggle("hidden");
   helpForm.classList.remove("help-form-transform");
+});
+
+upwardsButton.addEventListener("click", function () {
+  document.documentElement.scrollTop = 0;
 });
