@@ -61,14 +61,22 @@ ul {
   margin-bottom: 4rem;
   font-weight: 500;
 }
-.sem-link {
-  transition: all 0.5s;
+li:after {
+  display: block;
+  content: "";
+  padding-bottom: 4px;
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
 }
-.sem-link:hover {
-  padding: 0.1rem;
-  transform: rotate(7deg) scale(1.2);
-  background-color: black;
-  color: white;
+li:hover:after {
+  transform: scaleX(1);
+}
+li.fromRight:after {
+  transform-origin: 90% 50%;
+}
+li.fromLeft:after {
+  transform-origin: 0% 50%;
 }
 .help-form {
   position: absolute;
