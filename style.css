@@ -24,6 +24,16 @@ footer{
   background-color: #212529;
   color:white;
 }
+.name{
+  background-color: red;
+}
+.name:hover{
+  cursor:pointer;
+} 
+.name a{
+  color: white;
+  text-decoration: none;
+}
 footer p{
   text-align: center;
   font-size: 2rem;
