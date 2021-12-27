@@ -20,21 +20,21 @@ body {
 section {
   padding: 8rem 0;
 }
-footer{
+footer {
   background-color: #212529;
-  color:white;
+  color: white;
 }
-.name{
+.name {
   background-color: red;
 }
-.name:hover{
-  cursor:pointer;
-} 
-.name a{
+.name:hover {
+  cursor: pointer;
+}
+.name a {
   color: white;
   text-decoration: none;
 }
-footer p{
+footer p {
   text-align: center;
   font-size: 2rem;
 }
@@ -155,8 +155,12 @@ select {
 .section-sem5 {
   background-color: #f1f3f5;
 }
+.section-sem6 {
+  background-color: white;
+}
 .section-sem7 {
   background-color: #f1f3f5;
+  padding: 8rem 8rem 0rem 8rem;
 }
 .semester {
   text-align: center;
@@ -325,4 +329,22 @@ html {
 .downloadButton {
   display: flex;
   gap: 3rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f3f5;
+  padding: 8rem;
+}
+.count {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 8px #43494e57;
+}
+.countNum {
+  font-size: 5rem;
 }

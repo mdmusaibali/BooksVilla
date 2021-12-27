@@ -42,3 +42,22 @@ cancelButton.addEventListener("click", function () {
 upwardsButton.addEventListener("click", function () {
   document.documentElement.scrollTop = 0;
 });
+
+//Counter------------------------------------------------
+const counter = document.querySelector(".countNum");
+
+var count;
+function clicked() {
+  var xhr = new XMLHttpRequest();
+  xhr.open(
+    "GET",
+    "https://api.countapi.xyz/update/mdmusaibalibooksvilla.com/mdmusaibalibooksvilla.com?amount=1"
+  );
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    count = this.response.value;
+    counter.textContent = count;
+  };
+  xhr.send();
+}
+clicked();
